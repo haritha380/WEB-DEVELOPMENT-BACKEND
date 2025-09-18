@@ -1,0 +1,427 @@
+2025-08-26 22:44:50,868 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-08-26 22:44:50,887 INFO o.a.j.JMeter: Loading user properties from: D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\user.properties
+2025-08-26 22:44:50,888 INFO o.a.j.JMeter: Loading system properties from: D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\system.properties
+2025-08-26 22:44:50,898 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
+2025-08-26 22:44:50,898 INFO o.a.j.JMeter: Version 5.6.2
+2025-08-26 22:44:50,899 INFO o.a.j.JMeter: java.version=24.0.1
+2025-08-26 22:44:50,899 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-08-26 22:44:50,899 INFO o.a.j.JMeter: os.name=Windows 11
+2025-08-26 22:44:50,899 INFO o.a.j.JMeter: os.arch=amd64
+2025-08-26 22:44:50,899 INFO o.a.j.JMeter: os.version=10.0
+2025-08-26 22:44:50,899 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-08-26 22:44:50,899 INFO o.a.j.JMeter: java.awt.headless=true
+2025-08-26 22:44:50,899 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-08-26 22:44:50,899 INFO o.a.j.JMeter: Available Processors =8
+2025-08-26 22:44:50,919 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-08-26 22:44:50,920 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-08-26 22:44:50,920 INFO o.a.j.JMeter: JMeterHome=D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests\apache-jmeter-5.6.2\apache-jmeter-5.6.2
+2025-08-26 22:44:50,920 INFO o.a.j.JMeter: user.dir  =D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests
+2025-08-26 22:44:50,920 INFO o.a.j.JMeter: PWD       =D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests
+2025-08-26 22:44:50,922 INFO o.a.j.JMeter: IP: 192.168.8.156 Name: LAPTOP-MKE806OK FullName: LAPTOP-MKE806OK
+2025-08-26 22:44:50,939 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests\report'
+2025-08-26 22:44:50,941 INFO o.a.j.s.FileServer: Default base='D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests'
+2025-08-26 22:44:50,942 INFO o.a.j.s.FileServer: Set new base='D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests'
+2025-08-26 22:44:51,344 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-08-26 22:44:51,381 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-08-26 22:44:51,385 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-08-26 22:44:51,389 INFO o.a.j.s.SaveService: Loading file: music-festival-load-test.jmx
+2025-08-26 22:44:51,447 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-08-26 22:44:51,447 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-08-26 22:44:51,447 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-08-26 22:44:51,447 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-08-26 22:44:51,447 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-08-26 22:44:51,447 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-08-26 22:44:51,461 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-08-26 22:44:51,471 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-08-26 22:44:51,471 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results.jtl
+2025-08-26 22:44:51,471 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\reportgenerator.properties
+2025-08-26 22:44:51,494 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-08-26 22:44:51,521 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-08-26 22:44:51,529 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-08-26 22:44:51,529 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-08-26 22:44:51,530 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-08-26 22:44:51,530 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-08-26 22:44:51,530 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-08-26 22:44:51,530 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-08-26 22:44:51,530 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-08-26 22:44:51,531 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-08-26 22:44:51,543 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-08-26 22:44:51,543 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-08-26 22:44:51,544 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-08-26 22:44:51,544 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-08-26 22:44:51,544 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-08-26 22:44:51,544 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-08-26 22:44:51,544 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-08-26 22:44:51,545 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-08-26 22:44:51,545 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-08-26 22:44:51,546 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-08-26 22:44:51,548 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-08-26 22:44:51,548 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-08-26 22:44:51,548 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-08-26 22:44:51,550 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-08-26 22:44:51,550 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-08-26 22:44:51,550 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-08-26 22:44:51,574 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-08-26 22:44:51,579 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-08-26 22:44:51,580 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-08-26 22:44:51,591 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-08-26 22:44:51,592 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-08-26 22:44:51,722 INFO o.a.j.JMeter: Running test (1756228491722)
+2025-08-26 22:44:51,751 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : User API Tests
+2025-08-26 22:44:51,751 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group User API Tests.
+2025-08-26 22:44:51,752 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-08-26 22:44:51,752 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=10 delayedStart=false
+2025-08-26 22:44:51,763 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-1
+2025-08-26 22:44:51,790 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-MKE806OK
+2025-08-26 22:44:51,798 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-08-26 22:44:51,798 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-08-26 22:44:51,801 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-08-26 22:44:51,802 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-08-26 22:44:51,802 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-08-26 22:44:51,802 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-08-26 22:44:51,802 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-08-26 22:44:51,858 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-2
+2025-08-26 22:44:51,946 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-1
+2025-08-26 22:44:51,946 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-2
+2025-08-26 22:44:51,948 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-1
+2025-08-26 22:44:51,948 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-2
+2025-08-26 22:44:51,955 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-3
+2025-08-26 22:44:51,972 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-3
+2025-08-26 22:44:51,972 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-3
+2025-08-26 22:44:52,056 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-4
+2025-08-26 22:44:52,089 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-4
+2025-08-26 22:44:52,089 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-4
+2025-08-26 22:44:52,154 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-5
+2025-08-26 22:44:52,177 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-5
+2025-08-26 22:44:52,177 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-5
+2025-08-26 22:44:52,255 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-6
+2025-08-26 22:44:52,277 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-6
+2025-08-26 22:44:52,278 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-6
+2025-08-26 22:44:52,355 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-7
+2025-08-26 22:44:52,381 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-7
+2025-08-26 22:44:52,382 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-7
+2025-08-26 22:44:52,454 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-8
+2025-08-26 22:44:52,472 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-8
+2025-08-26 22:44:52,472 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-8
+2025-08-26 22:44:52,554 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-9
+2025-08-26 22:44:52,579 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-9
+2025-08-26 22:44:52,580 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-9
+2025-08-26 22:44:52,655 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-10
+2025-08-26 22:44:52,675 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-10
+2025-08-26 22:44:52,678 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-10
+2025-08-26 22:44:52,753 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-11
+2025-08-26 22:44:52,772 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-11
+2025-08-26 22:44:52,772 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-11
+2025-08-26 22:44:52,854 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-12
+2025-08-26 22:44:52,873 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-12
+2025-08-26 22:44:52,873 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-12
+2025-08-26 22:44:52,954 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-13
+2025-08-26 22:44:52,972 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-13
+2025-08-26 22:44:52,972 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-13
+2025-08-26 22:44:53,053 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-14
+2025-08-26 22:44:53,069 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-14
+2025-08-26 22:44:53,069 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-14
+2025-08-26 22:44:53,154 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-15
+2025-08-26 22:44:53,173 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-15
+2025-08-26 22:44:53,173 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-15
+2025-08-26 22:44:53,253 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-16
+2025-08-26 22:44:53,270 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-16
+2025-08-26 22:44:53,271 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-16
+2025-08-26 22:44:53,352 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-17
+2025-08-26 22:44:53,370 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-17
+2025-08-26 22:44:53,370 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-17
+2025-08-26 22:44:53,454 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-18
+2025-08-26 22:44:53,471 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-18
+2025-08-26 22:44:53,471 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-18
+2025-08-26 22:44:53,553 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-19
+2025-08-26 22:44:53,570 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-19
+2025-08-26 22:44:53,571 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-19
+2025-08-26 22:44:53,654 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-20
+2025-08-26 22:44:53,672 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-20
+2025-08-26 22:44:53,672 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-20
+2025-08-26 22:44:53,753 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-21
+2025-08-26 22:44:53,770 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-21
+2025-08-26 22:44:53,770 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-21
+2025-08-26 22:44:53,853 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-22
+2025-08-26 22:44:53,870 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-22
+2025-08-26 22:44:53,870 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-22
+2025-08-26 22:44:53,954 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-23
+2025-08-26 22:44:53,970 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-23
+2025-08-26 22:44:53,970 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-23
+2025-08-26 22:44:54,053 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-24
+2025-08-26 22:44:54,069 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-24
+2025-08-26 22:44:54,069 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-24
+2025-08-26 22:44:54,152 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-25
+2025-08-26 22:44:54,168 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-25
+2025-08-26 22:44:54,168 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-25
+2025-08-26 22:44:54,254 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-26
+2025-08-26 22:44:54,271 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-26
+2025-08-26 22:44:54,271 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-26
+2025-08-26 22:44:54,352 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-27
+2025-08-26 22:44:54,367 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-27
+2025-08-26 22:44:54,368 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-27
+2025-08-26 22:44:54,452 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-28
+2025-08-26 22:44:54,468 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-28
+2025-08-26 22:44:54,468 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-28
+2025-08-26 22:44:54,553 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-29
+2025-08-26 22:44:54,568 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-29
+2025-08-26 22:44:54,568 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-29
+2025-08-26 22:44:54,653 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-30
+2025-08-26 22:44:54,668 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-30
+2025-08-26 22:44:54,668 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-30
+2025-08-26 22:44:54,752 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-31
+2025-08-26 22:44:54,770 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-31
+2025-08-26 22:44:54,770 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-31
+2025-08-26 22:44:54,852 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-32
+2025-08-26 22:44:54,867 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-32
+2025-08-26 22:44:54,867 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-32
+2025-08-26 22:44:54,954 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-33
+2025-08-26 22:44:54,970 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-33
+2025-08-26 22:44:54,971 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-33
+2025-08-26 22:44:55,055 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-34
+2025-08-26 22:44:55,070 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-34
+2025-08-26 22:44:55,070 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-34
+2025-08-26 22:44:55,155 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-35
+2025-08-26 22:44:55,170 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-35
+2025-08-26 22:44:55,170 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-35
+2025-08-26 22:44:55,253 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-36
+2025-08-26 22:44:55,268 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-36
+2025-08-26 22:44:55,268 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-36
+2025-08-26 22:44:55,354 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-37
+2025-08-26 22:44:55,369 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-37
+2025-08-26 22:44:55,369 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-37
+2025-08-26 22:44:55,453 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-38
+2025-08-26 22:44:55,468 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-38
+2025-08-26 22:44:55,468 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-38
+2025-08-26 22:44:55,553 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-39
+2025-08-26 22:44:55,570 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-39
+2025-08-26 22:44:55,570 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-39
+2025-08-26 22:44:55,654 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-40
+2025-08-26 22:44:55,668 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-40
+2025-08-26 22:44:55,668 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-40
+2025-08-26 22:44:55,753 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-41
+2025-08-26 22:44:55,765 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-41
+2025-08-26 22:44:55,765 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-41
+2025-08-26 22:44:55,853 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-42
+2025-08-26 22:44:55,870 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-42
+2025-08-26 22:44:55,870 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-42
+2025-08-26 22:44:55,953 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-43
+2025-08-26 22:44:55,967 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-43
+2025-08-26 22:44:55,967 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-43
+2025-08-26 22:44:56,053 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-44
+2025-08-26 22:44:56,072 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-44
+2025-08-26 22:44:56,072 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-44
+2025-08-26 22:44:56,154 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-45
+2025-08-26 22:44:56,169 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-45
+2025-08-26 22:44:56,169 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-45
+2025-08-26 22:44:56,253 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-46
+2025-08-26 22:44:56,265 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-46
+2025-08-26 22:44:56,265 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-46
+2025-08-26 22:44:56,354 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-47
+2025-08-26 22:44:56,367 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-47
+2025-08-26 22:44:56,367 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-47
+2025-08-26 22:44:56,455 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-48
+2025-08-26 22:44:56,469 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-48
+2025-08-26 22:44:56,469 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-48
+2025-08-26 22:44:56,554 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-49
+2025-08-26 22:44:56,568 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-49
+2025-08-26 22:44:56,568 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-49
+2025-08-26 22:44:56,653 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-50
+2025-08-26 22:44:56,666 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-50
+2025-08-26 22:44:56,666 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-50
+2025-08-26 22:44:56,752 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-51
+2025-08-26 22:44:56,766 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-51
+2025-08-26 22:44:56,766 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-51
+2025-08-26 22:44:56,854 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-52
+2025-08-26 22:44:56,874 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-52
+2025-08-26 22:44:56,874 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-52
+2025-08-26 22:44:56,953 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-53
+2025-08-26 22:44:56,966 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-53
+2025-08-26 22:44:56,966 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-53
+2025-08-26 22:44:57,054 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-54
+2025-08-26 22:44:57,066 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-54
+2025-08-26 22:44:57,066 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-54
+2025-08-26 22:44:57,152 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-55
+2025-08-26 22:44:57,165 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-55
+2025-08-26 22:44:57,165 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-55
+2025-08-26 22:44:57,254 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-56
+2025-08-26 22:44:57,267 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-56
+2025-08-26 22:44:57,267 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-56
+2025-08-26 22:44:57,353 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-57
+2025-08-26 22:44:57,366 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-57
+2025-08-26 22:44:57,366 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-57
+2025-08-26 22:44:57,454 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-58
+2025-08-26 22:44:57,468 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-58
+2025-08-26 22:44:57,468 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-58
+2025-08-26 22:44:57,553 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-59
+2025-08-26 22:44:57,566 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-59
+2025-08-26 22:44:57,567 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-59
+2025-08-26 22:44:57,652 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-60
+2025-08-26 22:44:57,665 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-60
+2025-08-26 22:44:57,665 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-60
+2025-08-26 22:44:57,754 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-61
+2025-08-26 22:44:57,767 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-61
+2025-08-26 22:44:57,768 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-61
+2025-08-26 22:44:57,854 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-62
+2025-08-26 22:44:57,868 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-62
+2025-08-26 22:44:57,868 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-62
+2025-08-26 22:44:57,953 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-63
+2025-08-26 22:44:57,966 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-63
+2025-08-26 22:44:57,966 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-63
+2025-08-26 22:44:58,053 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-64
+2025-08-26 22:44:58,068 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-64
+2025-08-26 22:44:58,068 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-64
+2025-08-26 22:44:58,152 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-65
+2025-08-26 22:44:58,169 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-65
+2025-08-26 22:44:58,169 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-65
+2025-08-26 22:44:58,254 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-66
+2025-08-26 22:44:58,268 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-66
+2025-08-26 22:44:58,268 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-66
+2025-08-26 22:44:58,353 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-67
+2025-08-26 22:44:58,366 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-67
+2025-08-26 22:44:58,366 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-67
+2025-08-26 22:44:58,454 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-68
+2025-08-26 22:44:58,467 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-68
+2025-08-26 22:44:58,468 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-68
+2025-08-26 22:44:58,552 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-69
+2025-08-26 22:44:58,566 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-69
+2025-08-26 22:44:58,566 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-69
+2025-08-26 22:44:58,652 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-70
+2025-08-26 22:44:58,667 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-70
+2025-08-26 22:44:58,667 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-70
+2025-08-26 22:44:58,752 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-71
+2025-08-26 22:44:58,765 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-71
+2025-08-26 22:44:58,766 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-71
+2025-08-26 22:44:58,854 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-72
+2025-08-26 22:44:58,869 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-72
+2025-08-26 22:44:58,869 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-72
+2025-08-26 22:44:58,952 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-73
+2025-08-26 22:44:58,966 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-73
+2025-08-26 22:44:58,966 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-73
+2025-08-26 22:44:59,052 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-74
+2025-08-26 22:44:59,068 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-74
+2025-08-26 22:44:59,068 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-74
+2025-08-26 22:44:59,153 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-75
+2025-08-26 22:44:59,172 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-75
+2025-08-26 22:44:59,172 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-75
+2025-08-26 22:44:59,254 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-76
+2025-08-26 22:44:59,269 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-76
+2025-08-26 22:44:59,269 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-76
+2025-08-26 22:44:59,352 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-77
+2025-08-26 22:44:59,367 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-77
+2025-08-26 22:44:59,368 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-77
+2025-08-26 22:44:59,452 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-78
+2025-08-26 22:44:59,467 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-78
+2025-08-26 22:44:59,467 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-78
+2025-08-26 22:44:59,553 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-79
+2025-08-26 22:44:59,567 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-79
+2025-08-26 22:44:59,567 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-79
+2025-08-26 22:44:59,653 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-80
+2025-08-26 22:44:59,669 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-80
+2025-08-26 22:44:59,669 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-80
+2025-08-26 22:44:59,753 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-81
+2025-08-26 22:44:59,768 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-81
+2025-08-26 22:44:59,769 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-81
+2025-08-26 22:44:59,852 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-82
+2025-08-26 22:44:59,864 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-82
+2025-08-26 22:44:59,864 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-82
+2025-08-26 22:44:59,952 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-83
+2025-08-26 22:44:59,966 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-83
+2025-08-26 22:44:59,966 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-83
+2025-08-26 22:45:00,054 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-84
+2025-08-26 22:45:00,058 INFO o.a.j.r.Summariser: summary +    831 in 00:00:08 =   99.7/s Avg:     1 Min:     0 Max:    28 Err:   831 (100.00%) Active: 1 Started: 84 Finished: 83
+2025-08-26 22:45:00,069 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-84
+2025-08-26 22:45:00,069 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-84
+2025-08-26 22:45:00,153 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-85
+2025-08-26 22:45:00,167 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-85
+2025-08-26 22:45:00,167 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-85
+2025-08-26 22:45:00,252 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-86
+2025-08-26 22:45:00,265 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-86
+2025-08-26 22:45:00,265 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-86
+2025-08-26 22:45:00,354 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-87
+2025-08-26 22:45:00,366 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-87
+2025-08-26 22:45:00,366 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-87
+2025-08-26 22:45:00,453 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-88
+2025-08-26 22:45:00,468 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-88
+2025-08-26 22:45:00,468 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-88
+2025-08-26 22:45:00,553 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-89
+2025-08-26 22:45:00,570 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-89
+2025-08-26 22:45:00,570 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-89
+2025-08-26 22:45:00,653 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-90
+2025-08-26 22:45:00,675 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-90
+2025-08-26 22:45:00,676 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-90
+2025-08-26 22:45:00,753 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-91
+2025-08-26 22:45:00,769 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-91
+2025-08-26 22:45:00,769 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-91
+2025-08-26 22:45:00,854 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-92
+2025-08-26 22:45:00,871 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-92
+2025-08-26 22:45:00,871 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-92
+2025-08-26 22:45:00,953 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-93
+2025-08-26 22:45:00,967 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-93
+2025-08-26 22:45:00,967 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-93
+2025-08-26 22:45:01,053 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-94
+2025-08-26 22:45:01,067 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-94
+2025-08-26 22:45:01,067 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-94
+2025-08-26 22:45:01,154 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-95
+2025-08-26 22:45:01,166 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-95
+2025-08-26 22:45:01,166 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-95
+2025-08-26 22:45:01,254 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-96
+2025-08-26 22:45:01,267 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-96
+2025-08-26 22:45:01,267 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-96
+2025-08-26 22:45:01,354 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-97
+2025-08-26 22:45:01,367 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-97
+2025-08-26 22:45:01,367 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-97
+2025-08-26 22:45:01,454 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-98
+2025-08-26 22:45:01,467 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-98
+2025-08-26 22:45:01,467 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-98
+2025-08-26 22:45:01,553 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-99
+2025-08-26 22:45:01,565 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-99
+2025-08-26 22:45:01,565 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-99
+2025-08-26 22:45:01,653 INFO o.a.j.t.JMeterThread: Thread started: User API Tests 1-100
+2025-08-26 22:45:01,666 INFO o.a.j.t.JMeterThread: Thread is done: User API Tests 1-100
+2025-08-26 22:45:01,666 INFO o.a.j.t.JMeterThread: Thread finished: User API Tests 1-100
+2025-08-26 22:45:01,666 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-08-26 22:45:01,667 INFO o.a.j.r.Summariser: summary +    169 in 00:00:02 =  104.9/s Avg:     1 Min:     0 Max:     5 Err:   169 (100.00%) Active: 0 Started: 100 Finished: 100
+2025-08-26 22:45:01,668 INFO o.a.j.r.Summariser: summary =   1000 in 00:00:10 =  100.6/s Avg:     1 Min:     0 Max:    28 Err:  1000 (100.00%)
+2025-08-26 22:45:01,669 INFO o.a.j.JMeter: Generating Dashboard
+2025-08-26 22:45:01,669 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2025-08-26 22:45:01,773 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2025-08-26 22:45:02,140 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2025-08-26 22:45:02,140 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2025-08-26 22:45:02,146 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2025-08-26 22:45:02,146 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2025-08-26 22:45:02,156 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2025-08-26 22:45:02,162 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2025-08-26 22:45:02,162 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2025-08-26 22:45:02,162 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2025-08-26 22:45:02,285 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2025-08-26 22:45:02,285 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2025-08-26 22:45:02,286 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2025-08-26 22:45:02,286 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2025-08-26 22:45:02,349 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2025-08-26 22:45:02,350 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 7000 samples
+2025-08-26 22:45:02,350 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2025-08-26 22:45:02,350 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2025-08-26 22:45:02,350 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2025-08-26 22:45:02,350 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2025-08-26 22:45:02,350 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2025-08-26 22:45:02,350 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2025-08-26 22:45:02,351 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2025-08-26 22:45:02,351 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2025-08-26 22:45:02,352 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2025-08-26 22:45:02,352 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2025-08-26 22:45:02,352 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 15000 samples
+2025-08-26 22:45:02,352 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 3000 samples
+2025-08-26 22:45:02,352 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 1000 samples
+2025-08-26 22:45:02,353 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1000 samples produced in 518ms on channel 0
+2025-08-26 22:45:02,353 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2025-08-26 22:45:02,621 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2025-08-26 22:45:02,621 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2025-08-26 22:45:02,622 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2025-08-26 22:45:02,623 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2025-08-26 22:45:02,625 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests\report\statistics.json
+2025-08-26 22:45:02,713 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2025-08-26 22:45:02,718 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests\report
+2025-08-26 22:45:02,990 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests\report, creating folder structure
+2025-08-26 22:45:02,999 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\report-template' to 'D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests\report', got message: D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests\report, found non empty folder with following content [D:\QA project\WEB DEVELOPMENT BACKEND\jmeter-tests\report\statistics.json], will be ignored
+2025-08-26 22:45:03,749 INFO o.a.j.JMeter: Dashboard generated

@@ -1,0 +1,26 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - duration: 60
+      arrivalRate: 10
+      rampTo: 50
+      name: "Warm up phase"
+    - duration: 120
+      arrivalRate: 50
+      name: "Peak load phase"
+
+scenarios:
+  - name: "Login flow"
+    flow:
+      - post:
+          url: "/api/users/login"
+          json:
+            email: "test@example.com"
+            password: "testpassword123"
+          expect:
+            - statusCode: 200
+      - think: 1
+      - get:
+          url: "/api/users"
+          headers:
+            Authorization: "Bearer {{token}}"

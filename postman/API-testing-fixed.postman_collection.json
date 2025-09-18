@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "f8880bee-9d98-48ad-9476-90c885004309",
+		"name": "API testing - Fixed",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create User",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status 201 or 400\", () => {",
+							"    pm.expect([201, 400]).to.include(pm.response.code);",
+							"});",
+							"",
+							"if (pm.response.code === 201) {",
+							"    pm.test(\"Has user object on success\", () => {",
+							"        const body = pm.response.json();",
+							"        pm.expect(body).to.have.property(\"user\");",
+							"    });",
+							"} else {",
+							"    pm.test(\"Has error message on failure\", () => {",
+							"        const body = pm.response.json();",
+							"        pm.expect(body).to.have.property(\"message\");",
+							"    });",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Test User\",\n  \"email\": \"testuser@example.com\",\n  \"password\": \"password123\",\n  \"nic\": \"123456789V\",\n  \"country\": \"Sri Lanka\",\n  \"gender\": \"Male\",\n  \"language\": \"English\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "3000",
+					"path": ["api", "users"]
+				}
+			}
+		},
+		{
+			"name": "Login User",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status 200 or 401\", () => {",
+							"    pm.expect([200, 401]).to.include(pm.response.code);",
+							"});",
+							"",
+							"if (pm.response.code === 200) {",
+							"    pm.test(\"Has token on success\", () => {",
+							"        const body = pm.response.json();",
+							"        pm.expect(body).to.have.property(\"token\");",
+							"    });",
+							"} else {",
+							"    pm.test(\"Has error message on failure\", () => {",
+							"        const body = pm.response.json();",
+							"        pm.expect(body).to.have.property(\"message\");",
+							"    });",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"testuser@example.com\",\n  \"password\": \"password123\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/login",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "3000",
+					"path": ["api", "users", "login"]
+				}
+			}
+		},
+		{
+			"name": "Get All Users",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status 200\", () => {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Has users array\", () => {",
+							"    const body = pm.response.json();",
+							"    pm.expect(body).to.have.property(\"users\");",
+							"    pm.expect(body.success).to.be.true;",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/users",
+					"protocol": "http",
+					"host": ["localhost"],
+					"port": "3000",
+					"path": ["api", "users"]
+				}
+			}
+		}
+	]
+}

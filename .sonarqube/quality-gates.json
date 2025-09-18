@@ -1,0 +1,29 @@
+{
+  "quality-gates": [
+    {
+      "name": "Project Default",
+      "conditions": [
+        {
+          "metric": "new_reliability_rating",
+          "op": "GT",
+          "error": "1"
+        },
+        {
+          "metric": "new_security_rating",
+          "op": "GT",
+          "error": "1"
+        },
+        {
+          "metric": "new_maintainability_rating",
+          "op": "GT",
+          "error": "1"
+        },
+        {
+          "metric": "new_duplicated_lines_density",
+          "op": "GT",
+          "error": "3"
+        }
+      ]
+    }
+  ]
+}
