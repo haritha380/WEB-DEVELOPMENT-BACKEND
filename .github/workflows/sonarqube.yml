@@ -22,7 +22,7 @@ jobs:
         node-version: '16'
 
     - name: Delete existing node moduels 
-      run: rm -rm node_modules
+      run: rm -rf node_modules
         
     - name: Install dependencies
       run: npm install
